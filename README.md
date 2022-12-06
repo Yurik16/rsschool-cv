@@ -1,1 +1,1 @@
-https://yurik16.github.io/rsschool-cv/cv
+Link to pages: https://yurik16.github.io/rsschool-cv/cv
