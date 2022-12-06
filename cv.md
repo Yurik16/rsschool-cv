@@ -63,5 +63,5 @@ balancers, S3)
 CorelDraw, AutoCad, Revit, 3D max);
 - Java Core
 - Умение работать в команде;
-- Технический английский (pre-intermediate);
+- Английский (upper-intermediate);
 - Отличные коммуникабельные способности;
