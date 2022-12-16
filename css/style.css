@@ -1,11 +1,12 @@
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+
 }
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 10px;
 }
 
 html {
@@ -21,19 +22,28 @@ html {
     background-color: #26a0f4;
     color: #2d2d2d;
     text-transform: uppercase;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    user-select: none;
+}
+
+.header__container {
+    flex-grow: 1;
+    align-self: center;
+
+}
+
+.header__info {
+    text-align: center;
+    align-content: center;
+    color: black;
 }
 
 .header__photo {
+    padding: 0 10px;
     width: 30%;
 }
 
 .header__photo img {
+    margin: 10px;
     width: 100%;
 }
 
@@ -60,28 +70,15 @@ html {
     transition: .3s;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: #26a0f4;
+}
+
 .main {
     font-family: 'Helvetica';
 }
 
-
-aside {
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: left;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-}
-
-aside > p {
-    margin: .5rem;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
-}
 
 body {
     font-family: 'Helvetica', sans-serif;
@@ -89,6 +86,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: gray;
+
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: white;
+}
+
+.container__content {
+    /*border: 1px solid red;*/
+    padding-left: 50px;
+    margin-left: 150px;
+
 }
 
 footer {
@@ -108,16 +124,15 @@ footer {
     /*color: var(--bg-color);*/
 }
 
-.footer-github > a {
-    /*color: var(--bg-color);*/
+.footer-repo > a {
+    color: black;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.footer-github > a > i {
+.footer-repo > a > i {
     margin-right: 10px;
-    /*color: var(--bg-color);*/
 }
 
 .footer-rsschool > a > img {

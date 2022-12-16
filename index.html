@@ -14,64 +14,64 @@
     <title>Yury Chuksin - CV</title>
 </head>
 <body>
-<div class="header__nav">
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-        </ul>
-    </nav>
-</div>
-<header class="header">
-    <div class="container">
+<div class="wrapper">
+    <div class="header__nav">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="header">
+        <img src="./assets/img.png" alt="">
         <div class="header__container">
-            <div class="header__photo">
-                <img src="./assets/img.png" alt="">
-            </div>
             <div class="header__info">
                 <h1>Yury Chuksin</h1>
                 <p>Web-developer, Python-developer</p>
             </div>
         </div>
-    </div>
-</header>
-<!--    <p>Curious mind and unstoppable inspiration pushes me to my perfection.</p>-->
+    </header>
+    <!--    <p>Curious mind and unstoppable inspiration pushes me to my perfection.</p>-->
 
-<!--<aside>-->
-<!--    <p><a href="mailto:chuksin.yury@gmail.com">chuksin.yury@gmail.com</a></p>-->
-<!--    <p><i class="fa-solid fa-phone"></i>+375(29) 606-64-43</p>-->
+    <!--<aside>-->
+    <!--    <p><a href="mailto:chuksin.yury@gmail.com">chuksin.yury@gmail.com</a></p>-->
+    <!--    <p><i class="fa-solid fa-phone"></i>+375(29) 606-64-43</p>-->
 
-<!--    <p><i class="fa-sharp fa-solid fa-house"></i> Belarus, Minsk</p>-->
-<!--</aside>-->
-<main class="main">
-    <div class="container">
-        <section class="section" id="experience">
-            <h2 class="main__header">Experience</h2>
-            <div class="container">
-                <h3>Python-developer trainee, iTechArt Group Nov, 2021- Feb, 2022</h3>
-                Разработка API по сбору данных пользователей и их постов с вебсайта reddit.com.<br>
-                <ul>
-                    <li class="exp-item">парсинг посредством beautifulsoup4, selenium</li>
-                    <li class="exp-item">серверная часть написана без использования сторонних библиотек.</li>
-                    <li class="exp-item">реализация хранения данных через file, postgresql</li>
-                    <li class="exp-item">выбор типа хранения осуществлялась при использовании argparse</li>
-                </ul>
-            </div>
-            <div class="container">
-                <h3><span>Python-developer student TechMeSkills</span> <span>Apr, 2021 - Oct, 2021</span></h3>
-                <p>At the end of the course, I went through several interviews and received an offer to take an
-                    internship.</p>
-            </div>
+    <!--    <p><i class="fa-sharp fa-solid fa-house"></i> Belarus, Minsk</p>-->
+    <!--</aside>-->
+    <main class="main">
+        <div class="container">
+            <section class="section" id="experience">
+                <!--                <hr>-->
+                <h2 class="main__header">Experience</h2>
+                <div class="container__content">
+                    <h3>Python-developer trainee, iTechArt Group Nov, 2021- Feb, 2022</h3>
+                    Разработка API по сбору данных пользователей и их постов с вебсайта reddit.com.<br>
+                    <ul>
+                        <li class="exp-item">парсинг посредством beautifulsoup4, selenium</li>
+                        <li class="exp-item">серверная часть написана без использования сторонних библиотек.</li>
+                        <li class="exp-item">реализация хранения данных через file, postgresql</li>
+                        <li class="exp-item">выбор типа хранения осуществлялась при использовании argparse</li>
+                    </ul>
+                </div>
+                <div class="container__content">
+                    <h3><span>Python-developer student TechMeSkills</span> <span>Apr, 2021 - Oct, 2021</span></h3>
+                    <p>At the end of the course, I went through several interviews and received an offer to take an
+                        internship.</p>
+                </div>
 
-        </section>
-        <section class="code-example" id="code">
-            <h2 class="main__header">
-                Code example
-            </h2>
-            <div class="divider divider_black"></div>
-            <pre class="pre">
+            </section>
+            <section class="code-example" id="code">
+                <hr>
+                <h2 class="main__header">
+                    Code example
+                </h2>
+                <div class="container__content">
+                    <div class="divider divider_black"></div>
+                    <pre class="pre">
                             <code class="code">
         function bmi(weight, height) {
             const bmi = weight / (height * height);
@@ -81,47 +81,67 @@
         }
                             </code>
                         </pre>
-        </section>
-        <section class="skills" id="skills">
-            <h2 class="main_skills">Skills</h2>
-            <div class="container">
-                <ul>
-                    <li class="skills__item">Python + Django</li>
-                    <li class="skills__item">Основы Docker, DRF</li>
-                    <li class="skills__item">Уверенный пользователь Git</li>
-                    <li class="skills__item">Уверенный пользователь SQL, pgAdmin</li>
-                    <li class="skills__item">Основы MongoDB (mongosh, Compas) сертификаты: Basics,
-                        Authentication & Authorization
-                    </li>
-                    <li class="skills__item">Развиваюсь как пользователь Unix систем</li>
-                    <li class="skills__item">Пользователь Amazon Web Services (ES2: Instance/Load
-                        balancers, S3)
-                    </li>
-                    <li class="skills__item">Java Core</li>
-                    <li class="skills__item">Английский (upper-intermediate)</li>
-                    <li class="skills__item">HTML5, CSS</li>
-                </ul>
-            </div>
+                </div>
 
-        </section>
-    </div>
-</main>
-<!--<footer>-->
-<!--    <div class="container">-->
-<!--        <p>Posted by: Yury Chuksin</p>-->
-<!--        <p>Contact information: <a href="https://t.me/Liluzorg">-->
-<!--            <i class="fa-brands fa-telegram"></i></a></p>-->
-<!--    </div>-->
-<!--</footer>-->
-<footer>
-    <div class="footer-year">2023</div>
-    <div class="footer-github">
-        <a target="_blank" href="https://github.com/Yurik16"><i class="fab fa-github"></i>Me on GitHub</a>
-    </div>
-    <div class="footer-rsschool">
-        <a target="_blank" href="https://rs.school/js/"><img src="assets/rs_school_js.svg" alt="RSSchool link"/></a>
-    </div>
-</footer>
+            </section>
+            <section class="skills" id="skills">
+                <hr>
+                <h2 class="main__header">Skills</h2>
+                <div class="container__content">
+                    <ul>
+                        <li class="skills__item">Python + Django</li>
+                        <li class="skills__item">Основы Docker, DRF</li>
+                        <li class="skills__item">Уверенный пользователь Git</li>
+                        <li class="skills__item">Уверенный пользователь SQL, pgAdmin</li>
+                        <li class="skills__item">Основы MongoDB (mongosh, Compas) сертификаты: Basics,
+                            Authentication & Authorization
+                        </li>
+                        <li class="skills__item">Развиваюсь как пользователь Unix систем</li>
+                        <li class="skills__item">Пользователь Amazon Web Services (ES2: Instance/Load
+                            balancers, S3)
+                        </li>
+                        <li class="skills__item">Java Core</li>
+                        <li class="skills__item">Английский (upper-intermediate)</li>
+                        <li class="skills__item">HTML5, CSS</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <hr>
+                <h2 class="main__header">Education</h2>
+                <div class="container__content">
+                    <h3 class="edukation__item"><span>СтройФак, БГПА (БНТУ)</span></h3>
+                    <p>Минск</span> <span>1998 - 2001</p>
+                    <!--                    <p>Диплом, квалификация</p>-->
+                </div>
+                <div class="container__content">
+                    <h3 class="edukation__item"><span>СтройФак, БГТУ</span></h3>
+                    <p>Брест, 2001 - 2003</p>
+                    <p>Диплом, квалификация</p>
+                </div>
 
+            </section>
+        </div>
+    </main>
+    <!--<footer>-->
+    <!--    <div class="container">-->
+    <!--        <p>Posted by: Yury Chuksin</p>-->
+    <!--        <p>Contact information: <a href="https://t.me/Liluzorg">-->
+    <!--            <i class="fa-brands fa-telegram"></i></a></p>-->
+    <!--    </div>-->
+    <!--</footer>-->
+    <footer>
+        <div class="footer-year">2023</div>
+        <div class="footer-repo">
+            <a target="_blank" href="https://github.com/Yurik16"><i class="fab fa-github"></i>Me on GitHub</a>
+        </div>
+        <div class="footer-repo">
+            <a target="_blank" href="https://bitbucket.org/Yury_SE/"><i class="fab fa-bitbucket"></i>Me on Bitbucket</a>
+        </div>
+        <div class="footer-rsschool">
+            <a target="_blank" href="https://rs.school/js/"><img src="assets/rs_school_js.svg" alt="RSSchool link"/></a>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
