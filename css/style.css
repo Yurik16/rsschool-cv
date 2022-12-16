@@ -54,8 +54,17 @@ html {
     list-style: none;
     padding: 0 20px;
     line-height: 50px;
-    transition: .3s;
+    border-bottom: 3px solid transparent;
+    transition: .5s;
 
+}
+
+.nav li:hover {
+    border-bottom: 3px solid #CE2B2BF2;
+}
+
+.nav li.nav-item {
+    /*border-bottom: 3px solid #CE2B2BF2;*/
 }
 
 .nav__list {
@@ -67,12 +76,12 @@ html {
     list-style: none;
     padding: 0 20px;
     line-height: 50px;
-    transition: .3s;
 }
 
 .nav-link {
     text-decoration: none;
     color: #26a0f4;
+
 }
 
 .main {
@@ -129,6 +138,11 @@ footer {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+    transition: color 0.5s;
+}
+
+.footer-repo > a:hover {
+    color: #1f4ea5;
 }
 
 .footer-repo > a > i {
@@ -139,4 +153,11 @@ footer {
     width: 100px;
     position: relative;
     top: 3px;
+}
+
+.footer-rsschool > a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
