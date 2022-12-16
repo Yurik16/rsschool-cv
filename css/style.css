@@ -1,7 +1,69 @@
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url("../assets/fonts/Roboto-Regular.ttf");
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-height: 350px;
+    background-color: #26a0f4;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header__photo {
+    width: 30%;
+}
+
+.header__photo img {
+    width: 100%;
+}
+
+.nav li {
+    background-color: #eeeeee;
+    display: inline;
+    float: right;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+
+}
+
+.nav__list {
+    display: inline;
+    justify-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.main {
+    font-family: 'Helvetica';
+}
+
 
 aside {
     width: 40%;
@@ -18,11 +80,11 @@ aside > p {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -30,7 +92,36 @@ body {
 }
 
 footer {
-    background-color: #242424;
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #26a0f4;
+}
+
+.footer-year {
+    width: 100px;
+    text-align: center;
+    font-size: 37px;
+    line-height: 37px;
+    font-weight: bold;
+    /*color: var(--bg-color);*/
+}
+
+.footer-github > a {
+    /*color: var(--bg-color);*/
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-github > a > i {
+    margin-right: 10px;
+    /*color: var(--bg-color);*/
+}
+
+.footer-rsschool > a > img {
+    width: 100px;
+    position: relative;
+    top: 3px;
 }

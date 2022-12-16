@@ -13,8 +13,6 @@ Web-developer, Python-developer
 
 ## Опыт
 
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
 ### Python-developer trainee, iTechArt Group Nov, 2021- Feb, 2022
 
 Разработка API по сбору данных пользователей и их постов с вебсайта reddit.com.
