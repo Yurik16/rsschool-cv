@@ -112,8 +112,29 @@ body {
 .container__content {
     /*border: 1px solid red;*/
     padding-left: 50px;
+    padding-right: 20px;
     margin-left: 150px;
+}
 
+.container__content > p {
+    text-indent: 30px;
+
+}
+
+.container__content > p > a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.container__content > p > a:hover {
+    color: #2076d4;
+}
+
+.container__content > p {
+    text-indent: 20px;
 }
 
 footer {
