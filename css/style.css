@@ -47,9 +47,14 @@ html {
     width: 100%;
 }
 
+.nav__list {
+    display: inline;
+    justify-items: center;
+}
+
 .nav li {
     background-color: #eeeeee;
-    display: inline;
+    /*display: inline;*/
     float: right;
     list-style: none;
     padding: 0 20px;
@@ -67,10 +72,6 @@ html {
     /*border-bottom: 3px solid #CE2B2BF2;*/
 }
 
-.nav__list {
-    display: inline;
-    justify-items: center;
-}
 
 .nav-list {
     list-style: none;
